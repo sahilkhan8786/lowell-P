@@ -11,14 +11,12 @@ export default function Home() {
       <Header />
       <Details />
       <List />
-      <Appeal />
-
       <h2 className='text-center text-4xl uppercase py-4 font-semibold'> All Videos</h2>
       <VideoPlayer videoId={'zwsc1rVdPxA'} />
       <VideoPlayer videoId={'zwsc1rVdPxA'} />
       <VideoPlayer videoId={'zwsc1rVdPxA'} />
       <VideoPlayer videoId={'zwsc1rVdPxA'} />
-
+      <Appeal />
     </>
   )
 }
