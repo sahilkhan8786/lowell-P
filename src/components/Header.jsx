@@ -4,7 +4,7 @@ import ImageLoader from './loaders/ImageLoader'
 
 export default function Header() {
     return (
-        <header className='w-full relative'>
+        <header className='w-full relative '>
 
             <div className='relative w-full  h-[300px] sm:h-[400px] lg:h-[600px] '>
                 <Suspense fallback={<ImageLoader />}>
@@ -18,15 +18,15 @@ export default function Header() {
             </div>
             <div className='absolute top-1/3 left-0 w-full flex items-center justify-center flex-col gap-2'>
                 <h1 className='text-3xl sm:text-5xl font-semibold bg-white/85 px-3 py-3 text-center'>Welcome to </h1>
-                <p className=' font-bold text-6xl shadow-lg bg-white/85 px-3 py-3'>The&nbsp;Truth</p>
-                <h1 className='text-3xl sm:text-5xl font-semibold bg-white/85 px-3 py-3 text-center'>About JON TESTER </h1>
-                <p className='shadow-lg px-2 py-3 text-xl flex flex-col gap-2 justify-between items-center bg-red-700 text-white'>
+                <p className=' font-bold text-5xl shadow-lg bg-white/85 px-3 py-3'>The&nbsp;Truth</p>
+                <h1 className='text-3xl sm:text-5xl font-semibold bg-white/85 px-3 py-3 text-center'>About JON&nbsp;TESTER </h1>
+                <p className='shadow-lg px-2 py-3 text-xs sm:text-xl flex flex-col gap-2 justify-between items-center bg-red-700 text-white'>
                     <span className='text-center'>
                         False statements and lies being put forth by Jon Tester and the Washington Lobbyist designed to specifically to deceive you the Montana voters!
 
                     </span>
 
-                    <span>Decieves Montana Voters</span>
+                    <span className='text-xl text-center'>Decieves Montana Voters</span>
                 </p>
             </div>
         </header>

@@ -12,10 +12,10 @@ export default function Home() {
       <Details />
       <List />
       <h2 className='text-center text-4xl uppercase py-4 font-semibold'> All Videos</h2>
-      <VideoPlayer videoId={'zwsc1rVdPxA'} />
-      <VideoPlayer videoId={'zwsc1rVdPxA'} />
-      <VideoPlayer videoId={'zwsc1rVdPxA'} />
-      <VideoPlayer videoId={'zwsc1rVdPxA'} />
+      <VideoPlayer url={'https://player.vimeo.com/video/962918624'}/>
+      <VideoPlayer url={'https://player.vimeo.com/video/962930573'}/>
+      <VideoPlayer url={'https://player.vimeo.com/video/962930825'}/>
+      <VideoPlayer url={'https://player.vimeo.com/video/962930688'}/>
       <Appeal />
     </>
   )
