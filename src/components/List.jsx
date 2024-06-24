@@ -13,6 +13,16 @@ export default function List() {
                 ))
             }
 
+            <article className='bg-white flex gap-2 flex-col py-2'>
+                <h2 className='font-bold text-xl px-2'> Northern Border illegal aliens border crossings increase by 5000%
+                </h2>
+                <h2 className='font-bold text-xl px-2'> Tester does “NOTHING” to protect our Borders
+                </h2>
+                <h2 className='font-bold text-xl px-2'> Southern Border remains OPEN because of Tester’s VOTE
+                    Agents being over run and attacked 5/2024
+
+                </h2>
+            </article>
             <p className='bg-white py-8 text-xl px-2 font-bold'>The people of Montana wake up – this <strong>IS</strong> the time to vote for the right person irrespective of your party or belief.</p>
         </section>
     )

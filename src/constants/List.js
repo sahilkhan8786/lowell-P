@@ -32,8 +32,12 @@ export const list = [
         description: "FALSE and a LIE – China is buying up resources in Montana! "
     },
     {
-        heading: "It’s Tim Sheehey fault that Montana’s are suffering",
-        description: "Absolutely FALSE! COVID led the downfall of our state for rich people to come to Montana and buy up our land.in 2020-2022. Which skyrocketed our taxes sand expenses."
+        heading: "Added 1500 Border Agents",
+        description: "Absolutely FALSE! Jon Tester has nothing to do with adding Border Agents !!!"
+    },
+    {
+        heading: "Endorsed by Border Patrol Agents and or Border Patrol",
+        description: "Absolutely FALSE! National Border Patrol Council Confirmed they “DO NOT ENDORSE TESTER"
     },
     {
         description: "John goes from Lobbyist parties and free lobbyist trips and private planes and stock payoffs for his vote and then when he needs a vote, he grabs ye old pick- up truck and makes ads from the farm and says I am a good ole boy to sway Democratic voters in the state."
