@@ -26,7 +26,6 @@ export default function Header() {
 
                     </span>
 
-                    <span className='text-xl text-center'>Decieves Montana Voters</span>
                 </p>
             </div>
         </header>

@@ -16,10 +16,18 @@ export default function Home() {
       <Details />
       <List />
       <h2 className='text-center text-4xl uppercase py-4 font-semibold'> All Videos</h2>
-      <VideoPlayer url={'https://player.vimeo.com/video/962918624'} title={'Voted for Border WALL'} thumbnail={image1} />
-      <VideoPlayer url={'https://player.vimeo.com/video/962930573'} title={'Puts Montana First'} thumbnail={image2} />
-      <VideoPlayer url={'https://player.vimeo.com/video/962930825'} title={'He’s working with Border Patrol to control Fentanyl in Montana'} thumbnail={image3} />
-      <VideoPlayer url={'https://player.vimeo.com/video/962930688'} title={'More and more lies, save MONTANA'} thumbnail={image4} />
+      <VideoPlayer
+        url={'https://player.vimeo.com/video/962918624'}
+        title={'Commercial 1 by Jon Tester'} thumbnail={image1} />
+      <VideoPlayer
+        url={'https://player.vimeo.com/video/962930573'}
+        title={'Commercial 2 by Jon Tester'} thumbnail={image2} />
+      <VideoPlayer
+        url={'https://player.vimeo.com/video/962930825'}
+        title={'Commercial 3 by Jon Tester'} thumbnail={image3} />
+      <VideoPlayer
+        url={'https://player.vimeo.com/video/962930688'}
+        title={'Commercial 4 by Jon Tester'} thumbnail={image4} />
       <Appeal />
     </>
   )
